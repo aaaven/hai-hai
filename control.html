@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hai-hAI — Camera controller</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script src="lib/face-api.min.js" defer></script>
+  <script src="js/affect.js" defer></script>
+  <script src="js/session.js" defer></script>
+  <script src="js/camera-overlay.js" defer></script>
+  <script src="control.js" defer></script>
+</head>
+<body class="controller-page">
+  <header class="toolbar">
+    <h1>Hai-hAI <span>Camera controller</span></h1>
+    <a id="visualization-link" href="index.html" target="_blank" rel="noopener">Open visualization</a>
+  </header>
+  <main class="controller-content">
+    <div class="actions">
+      <button id="start-camera" type="button">Start camera</button>
+      <button id="stop-camera" type="button" class="secondary" disabled>Stop camera</button>
+    </div>
+    <p id="camera-status" class="status" role="status" aria-live="polite">Camera is off. Select Start camera and allow access.</p>
+    <p id="detection-timing" class="help">Detection timing will appear after the camera starts.</p>
+    <p class="privacy">Frames are processed in this browser. This demo does not record or upload video, and it does not request microphone access.</p>
+    <div id="camera-preview" class="camera-preview">
+      <video id="camera-video" autoplay muted playsinline aria-label="Your camera preview"></video>
+      <canvas id="face-overlay" width="640" height="480" aria-hidden="true"></canvas>
+    </div>
+    <dl class="metrics" aria-label="Affective state coordinates">
+      <div><dt>VA input</dt><dd id="input-values">0.00, 0.00</dd></div>
+      <div><dt>Simulated response VA′</dt><dd id="response-values">0.00, 0.00</dd></div>
+      <div><dt>Accumulated mood M</dt><dd id="mood-values">0.00, 0.00</dd></div>
+    </dl>
+    <p class="help">Values are (valence, arousal). The same coordinates and per-face category estimates are overlaid on the camera image. Emotion detection estimates categories from facial expressions; the response and mood are simulated.</p>
+    <div id="face-readouts" aria-label="Category estimates by face"></div>
+  </main>
+  <noscript>This controller requires JavaScript.</noscript>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="770" viewBox="0 0 1120 770" role="img" aria-labelledby="title desc">
+  <title id="title">From the paper's installation to a shared visual composition at home</title>
+  <desc id="desc">The paper separates participant input in area A from viewing in area B, combining a rice-paper shadow layer with a larger mirrored visualization. At home, one participant faces a large wall shadow and a small TV showing the symbolic AI. Both are seen together from one position, with the TV a small element within the larger shadow field.</desc>
+  <defs>
+    <marker id="blue" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0L10 4L0 8Z" fill="#17647a"/></marker>
+    <marker id="amber" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0L10 4L0 8Z" fill="#9a6415"/></marker>
+    <marker id="gray" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0L10 4L0 8Z" fill="#566372"/></marker>
+    <style>text{font-family:Arial,Helvetica,sans-serif;fill:#202b38}.title{font-size:30px;font-weight:700}.section{font-size:23px;font-weight:700}.label{font-size:21px;font-weight:700}.body{font-size:19px}.note{font-size:17px;fill:#536171}.box{fill:#fff;stroke:#bac5cd;stroke-width:1.5}</style>
+  </defs>
+  <rect width="1120" height="770" fill="#fff"/>
+  <text x="36" y="48" class="title">From the paper to a shared visual composition</text>
+  <text x="36" y="81" class="body">Keep the two interaction layers; simplify where people stand and look.</text>
+  <rect x="24" y="110" width="1072" height="278" rx="12" fill="#f4f6f8"/>
+  <text x="44" y="147" class="section">PAPER  |  Separate participation and viewing areas</text>
+  <text x="44" y="174" class="note">Conceptual reading of Fig. 8, Fig. 11 and Sec. 5.3</text>
+  <rect x="44" y="214" width="266" height="136" rx="8" class="box"/>
+  <text x="62" y="245" class="label">Input area A</text>
+  <text x="62" y="274" class="body">Participant + camera</text>
+  <text x="62" y="302" class="body">Small interactive display</text>
+  <text x="62" y="330" class="note">Facial and bodily input</text>
+  <rect x="396" y="214" width="274" height="136" rx="8" class="box"/>
+  <text x="414" y="245" class="label">Two visual layers</text>
+  <text x="414" y="276" class="body" style="fill:#17647a">Mirrored AI visualization</text>
+  <text x="414" y="309" class="body" style="fill:#9a6415">Rice-paper shadow layer</text>
+  <rect x="756" y="214" width="318" height="136" rx="8" class="box"/>
+  <text x="774" y="245" class="label">Viewing area B</text>
+  <text x="774" y="275" class="body">Large display and shadows</text>
+  <text x="774" y="304" class="body">seen together from the</text>
+  <text x="774" y="333" class="body">opposite viewing area</text>
+  <path d="M315 261H386" fill="none" stroke="#17647a" stroke-width="3" marker-end="url(#blue)"/>
+  <path d="M315 307H386" fill="none" stroke="#9a6415" stroke-width="3" marker-end="url(#amber)"/>
+  <path d="M678 284H746" fill="none" stroke="#566372" stroke-width="3" marker-end="url(#gray)"/>
+  <rect x="24" y="409" width="1072" height="279" rx="12" fill="#eef6f8"/>
+  <text x="44" y="447" class="section">HOME  |  One person participates and sees the whole composition</text>
+  <rect x="44" y="483" width="266" height="145" rx="8" class="box"/>
+  <text x="62" y="517" class="label">Participant + viewer</text>
+  <text x="62" y="551" class="body">Faces wall and small TV</text>
+  <text x="62" y="581" class="body">Moves in the light beam</text>
+  <rect x="794" y="483" width="280" height="145" rx="8" class="box"/>
+  <text x="812" y="517" class="label">One visual composition</text>
+  <text x="812" y="552" class="body" style="fill:#17647a">Small TV / symbolic AI</text>
+  <text x="812" y="583" class="body" style="fill:#9a6415">Large wall shadow</text>
+  <path d="M319 531H783" fill="none" stroke="#17647a" stroke-width="3" marker-end="url(#blue)"/>
+  <rect x="335" y="490" width="439" height="29" fill="#eef6f8"/>
+  <text x="341" y="512" class="body" style="fill:#17647a">Emotion detection / simulated response</text>
+  <path d="M319 600H783" fill="none" stroke="#9a6415" stroke-width="3" marker-end="url(#amber)"/>
+  <text x="362" y="585" class="body" style="fill:#9a6415">Light + body / physical shadow</text>
+  <text x="44" y="661" class="body">No room divider, second AI display or opposite-side audience position.</text>
+  <text x="36" y="724" class="note">The TV is a small element within the larger wall-shadow composition, following the visual idea in Fig. 11.</text>
+  <text x="36" y="752" class="note">Schematic adaptation, not a measured installation plan. The home arrangement is not the paper's tested setup.</text>
+</svg>

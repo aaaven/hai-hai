@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hai-hAI: an interactive abstract visualization of a simulated, symbolic AI's rule-based affective responses.">
+  <title>Hai-hAI — Interactive visualization</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script src="lib/p5.js" defer></script>
+  <script src="lib/simplex-noise.min.js" defer></script>
+  <script src="lib/p5.easycam.min.js" defer></script>
+  <script src="js/affect.js" defer></script>
+  <script src="js/session.js" defer></script>
+  <script src="vizjs/computeParams.js" defer></script>
+  <script src="vizjs/InstancedParticles.js" defer></script>
+  <script src="vizjs/NoisyOrbital.js" defer></script>
+  <script src="vizjs/visualization.js" defer></script>
+</head>
+<body class="visualization-page">
+  <header class="toolbar">
+    <h1>Hai-hAI</h1>
+    <div class="actions">
+      <button id="open-controller" type="button">Open camera controller</button>
+      <a id="controller-link" href="control.html" target="_blank" rel="noopener">Open in a tab</a>
+      <button id="exhibition-mode" type="button" class="secondary" aria-pressed="false" title="Show only the visualization in fullscreen. Press Esc to exit.">Exhibition mode</button>
+    </div>
+  </header>
+  <p id="connection-status" class="status" role="status" aria-live="polite">Camera is off. Open the controller to begin.</p>
+  <main id="canvas-container" aria-label="Abstract visualization of simulated affect"></main>
+  <footer>
+    <p>Keep the controller open in this browser. Its camera-based category estimates drive a simulated response, not a measurement of felt emotion.</p>
+    <p>This is the artwork’s software visualization; shadow casting requires the physical installation.</p>
+  </footer>
+  <noscript>This interactive experience requires JavaScript.</noscript>
+</body>
+</html>

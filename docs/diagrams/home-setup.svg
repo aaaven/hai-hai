@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="970" viewBox="0 0 1120 970" role="img" aria-labelledby="title desc">
+  <title id="title">A casual, one-sided Hai-hAI setup at home</title>
+  <desc id="desc">Top view. A directional light behind the participant casts a shadow onto a wall. A small TV stands near the wall, with a webcam nearby facing the participant and a computer supplying the visualization. The participant sees the wall shadow and small TV together. A front-view inset shows the TV as a small element near the bottom of the much larger wall-shadow composition. Fullscreen fills the TV only.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0 0L9 3.5L0 7Z" fill="#17647a"/></marker>
+    <marker id="purple" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0 0L9 3.5L0 7Z" fill="#76558c"/></marker>
+    <marker id="gray" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto-start-reverse"><path d="M0 0L9 3.5L0 7Z" fill="#566372"/></marker>
+    <style>text{font-family:Arial,Helvetica,sans-serif;fill:#202b38}.title{font-size:30px;font-weight:700}.section{font-size:23px;font-weight:700}.label{font-size:21px;font-weight:700}.body{font-size:19px}.note{font-size:17px;fill:#536171}</style>
+  </defs>
+  <rect width="1120" height="970" fill="#fff"/>
+  <text x="36" y="48" class="title">One-sided home setup</text>
+  <text x="36" y="81" class="body">A large wall shadow and a small TV form one visual composition.</text>
+  <rect x="24" y="108" width="1072" height="501" rx="12" fill="#f5f7f8" stroke="#d9e0e5"/>
+  <text x="44" y="145" class="section">TOP VIEW</text>
+  <text x="44" y="173" class="note">Schematic positions, not to scale</text>
+  <!-- Light cone and the body-blocked part of the beam. -->
+  <path d="M138 359L925 225L925 500Z" fill="#f4dda9" fill-opacity=".65"/>
+  <path d="M446 334L925 295L925 423L446 384Z" fill="#a99062" fill-opacity=".28"/>
+  <path d="M140 359L925 225M140 359L925 500" fill="none" stroke="#aa7928" stroke-width="1.5"/>
+  <!-- Directional lamp, symbol only. -->
+  <rect x="82" y="340" width="38" height="38" rx="7" fill="#fff" stroke="#9a6415" stroke-width="2.5"/>
+  <path d="M120 338L142 326V392L120 380Z" fill="#f7e8c5" stroke="#9a6415" stroke-width="2.5"/>
+  <text x="53" y="439" class="label">LED light</text>
+  <text x="53" y="468" class="body">behind you</text>
+  <!-- Participant, top-view head/shoulder symbol and facing direction. -->
+  <ellipse cx="446" cy="359" rx="26" ry="40" fill="#d1d9df" stroke="#374657" stroke-width="2"/>
+  <circle cx="454" cy="359" r="23" fill="#f5f7f8" stroke="#374657" stroke-width="2.5"/>
+  <path d="M475 353L486 359L475 365" fill="#f5f7f8" stroke="#374657" stroke-width="2"/>
+  <path d="M502 360H811" fill="none" stroke="#17647a" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="539" y="345" class="body" style="fill:#17647a">View wall + small TV</text>
+  <text x="350" y="449" class="label">Participant / viewer</text>
+  <path d="M335 489H640" stroke="#566372" stroke-width="2" marker-start="url(#gray)" marker-end="url(#gray)"/>
+  <text x="348" y="523" class="body">Move closer or farther away</text>
+  <!-- The wall receives the larger physical shadow. -->
+  <path d="M925 218V508" stroke="#9a9a93" stroke-width="10"/>
+  <path d="M920 295V423" stroke="#706b62" stroke-width="5"/>
+  <text x="845" y="202" class="label">Wall / backdrop</text>
+  <!-- Small TV seen from above: the left edge is its front face. -->
+  <rect x="858" y="322" width="18" height="78" rx="3" fill="#283543"/>
+  <path d="M858 325V397" stroke="#2486a0" stroke-width="4"/>
+  <path d="M858 407V439H792" fill="none" stroke="#17647a" stroke-width="1.5"/>
+  <text x="702" y="447" class="label">Small TV</text>
+  <!-- Webcam near the TV, oriented toward the face. -->
+  <rect x="829" y="264" width="37" height="23" rx="5" fill="#fff" stroke="#76558c" stroke-width="2"/>
+  <circle cx="838" cy="276" r="5" fill="#76558c"/>
+  <path d="M828 280Q658 231 480 341" fill="none" stroke="#76558c" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#purple)"/>
+  <text x="586" y="237" class="body" style="fill:#76558c">Webcam faces you</text>
+  <!-- Computer beside the TV; a separate operating view, not another AI view. -->
+  <rect x="944" y="474" width="105" height="62" rx="4" fill="#fff" stroke="#374657" stroke-width="2"/>
+  <path d="M935 544H1058L1049 554H944Z" fill="#e3e9ed" stroke="#374657" stroke-width="2"/>
+  <path d="M944 510V530H898V382H878" fill="none" stroke="#566372" stroke-width="2"/>
+  <text x="936" y="578" class="note">Computer</text>
+  <text x="44" y="576" class="note">The wall receives the shadow; the small TV displays the symbolic AI.</text>
+  <rect x="24" y="630" width="1072" height="282" rx="12" fill="#eef6f8"/>
+  <text x="44" y="669" class="section">WHAT YOU LOOK AT</text>
+  <!-- A broad wall-shadow field, with a much smaller physical TV in front. -->
+  <rect x="46" y="697" width="319" height="180" rx="3" fill="#e8e5df" stroke="#b6b6b0"/>
+  <path d="M121 876V804Q121 778 148 773H177Q204 778 209 804L231 876Z" fill="#7c8185"/>
+  <circle cx="162" cy="744" r="24" fill="#7c8185"/>
+  <rect x="223" y="815" width="78" height="46" rx="2" fill="#283543"/>
+  <rect x="227" y="819" width="70" height="38" fill="#0c131b"/>
+  <path d="M240 861L236 867M284 861L288 867" stroke="#283543" stroke-width="2.5"/>
+  <g fill="none" stroke="#5bc8e0" stroke-width="1.2">
+    <circle cx="262" cy="838" r="15"/>
+    <ellipse cx="262" cy="838" rx="15" ry="6" transform="rotate(27 262 838)"/>
+    <ellipse cx="262" cy="838" rx="6" ry="15" transform="rotate(-25 262 838)"/>
+    <ellipse cx="262" cy="838" rx="14" ry="9" transform="rotate(-46 262 838)"/>
+  </g>
+  <text x="396" y="724" class="label">Large shadow field, small symbolic AI</text>
+  <text x="396" y="757" class="body">The wall is the main visual field.</text>
+  <text x="396" y="799" class="body">A small TV sits within the larger composition.</text>
+  <text x="396" y="829" class="body">Fullscreen applies to the TV only.</text>
+  <text x="396" y="864" class="note">Seen together from one position; schematic, not to scale.</text>
+  <text x="36" y="945" class="note">One-sided arrangement: light → participant → wall, with the small TV in front of the wall.</text>
+</svg>
